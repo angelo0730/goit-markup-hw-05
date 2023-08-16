@@ -134,8 +134,8 @@ color: inherit;
 .what-we-do {
   display: flex;
  flex-wrap: wrap;
- margin-left: 30px;
- margin-top: 30px;
+ margin-left: -30px;
+ margin-top: -30px;
 }
 /* checked */
 .what-we-do .item {
@@ -157,9 +157,9 @@ color: inherit;
   margin-top: 30px;
   padding-bottom: 30px;
   background-color: var(--whitecolor);
-  border-radius: 0px 0px 4px 4px
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-  0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  
 }
 /* checked */
 .button.filter {
@@ -429,20 +429,19 @@ background-image: url(../images/dark-bg.png), url(../images/hero-bg.jpg),
 .footer {
 display: flex;
 flex-wrap: wrap;
-margin-top: -12px;
 align-items: baseline;
-margin-left: -50px;  
+margin-left: -25px;  
 }
 .footer-socials {
   margin-top: 12px;
-  margin-left: 123px;
+  margin-left: 120px;
 }
 .footer-socials-text.text {
   font-weight: 500;
 color: var(--whitecolor);
 }
 .footer-list.list {
-  padding-top: 17.5px;
+  padding-top: 16px;
   display: flex;
   justify-content: flex-start;
   gap: 16px;
@@ -535,7 +534,7 @@ color: var(--whitecolor);
   width: 30px;
   height: 30px;
 
-  background-color: var(--cornflower, #e7e9fc);
+  background-color: var(--cornflower);
   color: var(--navyblue);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 15px;
